@@ -24,4 +24,4 @@ monkey_on_box = True
 print("Monkey climbs on box")
 
 # Monkey gets banana
-print("Monkey grabs the banana 🍌")
+print("Monkey grabs the banana ")
