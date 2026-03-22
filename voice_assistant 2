@@ -1,0 +1,22 @@
+# voice_assistant_prolog.py
+# Simple Voice Assistant using Prolog-style facts in Python
+
+# Knowledge base (like Prolog facts)
+responses = {
+    "hello": "Hello, how can I help you?",
+    "time": "You can check the system time.",
+    "name": "I am a Python voice assistant with Prolog-style logic.",
+    "bye": "Goodbye! Have a nice day."
+}
+
+print("Voice Assistant Started (type 'bye' to exit)")
+
+while True:
+    user_input = input("You: ").lower()  # Take user input
+
+    if user_input in responses:
+        print("Assistant:", responses[user_input])
+        if user_input == "bye":
+            break
+    else:
+        print("Assistant: Sorry, I don't understand.")
